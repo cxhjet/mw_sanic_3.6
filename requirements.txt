@@ -1,0 +1,5 @@
+redis
+python-consul
+sanic
+git+https://maxwin_ch@bitbucket.org/maxwin-inc/mwutils.git
+git+https://maxwin_ch@bitbucket.org/maxwin-inc/mwsdk.git
