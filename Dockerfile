@@ -4,9 +4,8 @@
 ########################################
 FROM python:3.6-alpine
 COPY ./requirements.txt /var/requirements.txt
-COPY . /var/realtime_srv_py
 RUN apk add --no-cache --virtual .build-deps  \
-        make \
+                make \
 		gcc \
 		libc-dev \
 		linux-headers \
